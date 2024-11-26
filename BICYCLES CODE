@@ -18,9 +18,9 @@ class Bicycle{
 }
 class MountainBike extends Bicycle{
   public int seatHeight;
-  public MountainBike(int gear, int speed, int seatHeight){
+  public MountainBike(int gear, int speed, int startHeight){
     super(gear, speed);
-    seatHeight = seatHeight;
+    seatHeight = startHeight;
   }
   public void setHeight(int newValue){
     seatHeight = newValue;
